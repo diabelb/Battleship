@@ -1,6 +1,7 @@
 {
     "name": "dawidboruta/battleship",
     "description": "Battleship game",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Battleship\\": "src/"
