@@ -1,0 +1,29 @@
+{
+    "name": "dawidboruta/battleship",
+    "description": "Battleship game",
+    "autoload": {
+        "psr-4": {
+            "Battleship\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dawid Boruta",
+            "email": "diabelb@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": [
+            "phpunit --testdox tests"
+        ]
+    },
+    "require": {
+        "symfony/dependency-injection": "^6.3",
+        "symfony/console": "^6.3",
+        "symfony/config": "^6.3",
+        "symfony/yaml": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    }
+}
